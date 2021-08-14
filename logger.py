@@ -31,11 +31,11 @@ def main():
 
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                print(f"[{datetime.datetime.now()}] Found song {artistName} - {titleName}.")
                 print("Downloading audio now\n")
                 ydl.download([f"ytsearch1:{artistName} - {titleName}"])
-        print(f"[{datetime.datetime.now()}] Found song {artistName} - {titleName}.")
         main()
-
+        
     except Exception as e:
         print(f"[{datetime.datetime.now()}] {artistName} - {titleName} not found in youtube.")
         print(e)
