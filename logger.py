@@ -42,7 +42,6 @@ def main():
         print(e)
         main()
 
-    return artistName
 
 if __name__ == '__main__':
-    print(main())
+    main()
