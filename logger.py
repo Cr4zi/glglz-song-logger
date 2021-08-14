@@ -2,7 +2,6 @@ import requests
 import xml.etree.ElementTree as ET
 import youtube_dl
 import datetime
-import os
 
 def main():
     glglz = requests.get("https://glzxml.blob.core.windows.net/dalet/glglz-onair/onair.xml")
