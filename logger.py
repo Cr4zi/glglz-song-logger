@@ -19,7 +19,7 @@ def main():
         }],
     }
     def write_to_file():
-        with open("songs.txt", "a") as f:
+        with open("songs.txt", "a+") as f:
             f.write("\n" + f"{artistName} - {titleName}")
 
     with open("songs.txt", "r") as f:
