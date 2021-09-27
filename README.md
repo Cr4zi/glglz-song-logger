@@ -10,7 +10,7 @@ Getting current playing song in glglz radio station.
 ```bash
 pip3 install -r requirements.txt
 ```
-2. Run the cmd or terminal, in the cmd or terminal, do
+2. In the cmd or terminal, do
 ```bash
 python3 logger.py
 ```
